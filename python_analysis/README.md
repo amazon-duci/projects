@@ -14,6 +14,7 @@ Each project demonstrates **data cleaning, visualization, and insights generatio
 | **Online Retail Analysis** | Analysis of an online retail dataset with plots and insights. Includes Excel dataset and corresponding Jupyter Notebook. |
 | **Webscraping (expanding)** | Contains projects where datasets are scraped from **e-commerce platforms** (e.g., Jumia, Konga, AliExpress, Spar, Temu, Jiji, and others). Only Jupyter Notebooks are uploaded here since datasets are collected live. |
 
+(More Python projects coming soon...)
 ---
 
 ## 📌 Notes
