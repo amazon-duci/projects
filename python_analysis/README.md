@@ -12,6 +12,7 @@ Each project focuses on real-world datasets, exploring data cleaning, visualizat
 | **Bank Churn** | Guided analysis of a bank churn dataset. Includes Excel dataset and a Jupyter Notebook with cleaning, visualizations, and question-driven insights. |
 | **Car Sales Analysis** | Comprehensive analysis of car sales data. Includes guided questions, model building, plots, and a regression model. Due to file size, both the Excel dataset and Jupyter Notebook are provided as a ZIP. |
 | **Online Retail Analysis** | Analysis of an online retail dataset with plots and insights. Includes Excel dataset and corresponding Jupyter Notebook. |
+| **Webscraping (coming soon)** | Will contain analyses of data scraped from sites like **Jumia, Konga, AliExpress**, etc. Only the Jupyter Notebook analyses will be uploaded. |
 
 (More Python projects coming soon...)
 ---
