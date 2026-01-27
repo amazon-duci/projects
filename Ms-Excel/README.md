@@ -12,6 +12,7 @@ They showcase dashboards, automation using formulas, pivot tables, and custom so
 | **adidas.xlsx** | A dynamic dashboard analyzing **Adidas sales in the US**, featuring KPIs, slicers, and interactive visuals. |
 | **bank_churn.xlsx** | Analysis of **bank churn data** with interactive visualizations. Includes both the processed Excel file and raw dataset. |
 | **fingerprint_data.xlsx** | Attendance system built on biometric data. Converts employee logs into **1/0 (present/absent)** records, auto-calculates total attendance, and appends new employees (not yet in the attendance sheet) with the default role *“Labourer.”* |
+| **schedule_tracker.xlsx** | An employee **work schedule and attendance tracker**. Manages daily clock-in and clock-out records, ensures each day counts as **one attendance**, and summarizes total attendance per employee for payroll and HR reporting. |
 | **navigation_bar.xlsx** | A custom **Excel navigation bar** that allows easy movement across multiple sheets, improving workbook usability. |
 
 
