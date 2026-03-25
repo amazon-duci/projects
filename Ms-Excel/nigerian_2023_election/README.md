@@ -14,9 +14,8 @@ It provides visual insights into party performance, stronghold areas, and region
 ---
 
 ## 📂 Files in This Project
-- **Election Dataset** → Raw 2023 election results by state and constituency.  
-- **Election Dashboard** → Excel workbook with pivot tables, charts, and slicers for interactive analysis.  
-- **Screenshots** (optional, in `data/`) → Visual reference for dashboards.
+- **Election Dataset** → Different sheets containing raw 2023 election results, analyzed dataset and pivot tables, charts, and slicers for interactive analysis.    
+- **Screenshots**  → Visual reference for dashboards.
 
 ---
 
