@@ -14,23 +14,25 @@ They showcase dashboards, automation using formulas, pivot tables, and custom so
 | **fingerprint_data.xlsx** | Attendance system built on biometric data. Converts employee logs into **1/0 (present/absent)** records, auto-calculates total attendance, and appends new employees (not yet in the attendance sheet) with the default role *“Labourer.”* |
 | **schedule_tracker.xlsx** | A dynamic **work schedule monitoring tool** designed to ensure **even distribution of shifts** across employees on each day. Prevents missed or unassigned shifts and **automatically updates calendar headers** based on the selected start date. |
 | **navigation_bar.xlsx** | A custom **Excel navigation bar** that allows easy movement across multiple sheets, improving workbook usability. |
-
+| **nigerian_2023_election.xlsx** | Analysis and visualization of **2023 Nigerian election results**. Highlights party strongholds, vote distribution, and insights to help political parties identify where to consolidate support and where to focus for upcoming elections. |
 
 (More Excel projects coming soon...)
+
 ---
 
 ## 🔧 How to Use
 1. Download or open each `.xlsx` file.  
 2. Enable content/macros if prompted (some dynamic features may require it).  
 3. Explore dashboards, pivot tables, and slicers in each file.  
-4. For `fingerprint_data.xlsx`, check the **attendance sheet** for generated presence/absence values.
+4. For `fingerprint_data.xlsx`, check the **attendance sheet** for generated presence/absence values.  
+5. For `nigerian_2023_election.xlsx`, explore **state-wise and party-wise visualizations**, slicers, and charts to see stronghold areas and voter patterns.
 
 ---
 
 ## ✅ Notes
-- Each file is self-contained with raw data and analysis objective 
+- Each file is self-contained with raw data and analysis objectives.  
 - `bank_churn.xlsx` includes a raw data sheet for reference.  
+- `nigerian_2023_election.xlsx` contains **raw election results**, pivot tables, and interactive visuals for insights.  
 - For long-term clarity, a **Notes/README sheet** inside each workbook can describe the dataset, method, and insights.
 
 ---
-
