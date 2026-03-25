@@ -21,6 +21,21 @@ padding:40px;
 text-align:center;
 }
 
+.header .btn{
+display:inline-block;
+margin-top:15px;
+background:#dab81e;
+color:black;
+padding:10px 18px;
+border-radius:5px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.header .btn:hover{
+background:#c9a915;
+}
+
 /* NAV */
 .nav{
 background:white;
@@ -141,7 +156,7 @@ cursor:pointer;
 background:#145a1c;
 }
 
-/* OTHER UI */
+/* TIMELINE / CERTS */
 .timeline, .cert{
 background:white;
 padding:20px;
@@ -150,25 +165,11 @@ border-radius:8px;
 box-shadow:0 2px 5px rgba(0,0,0,0.1);
 }
 
+/* FOOTER */
 .footer{
 text-align:center;
 padding:20px;
 color:#777;
-}
-
-.btn{
-display:inline-block;
-margin-top:15px;
-background:#dab81e;
-color:black;
-padding:10px 18px;
-border-radius:5px;
-text-decoration:none;
-font-weight:bold;
-}
-
-.btn:hover{
-background:#c9a915;
 }
 
 /* MOBILE */
@@ -204,7 +205,13 @@ padding:20px;
 <div class="section">
 <h2>About Me</h2>
 <p>
-Data Analyst with strong experience in analytics, reporting, and workflow improvement.
+Data Analyst with strong experience in technical data management, analytics, reporting, and 
+workflow improvement, supporting operational, engineering, and field environments. Proven 
+ability to gather, clean, validate, integrate, and analyze structured and unstructured datasets to 
+support decision-making, performance optimization, and risk reduction. Experienced in data 
+governance, reporting automation, KPI tracking, system reliability analysis, and multidisciplinary 
+collaboration, with exposure to project management, HSE systems, and technical operations. 
+Adept at translating technical data into actionable insights aligned with business objectives.
 </p>
 </div>
 
@@ -213,9 +220,9 @@ Data Analyst with strong experience in analytics, reporting, and workflow improv
 <h2>Tools & Technologies</h2>
 
 <div class="cert"><b>Data Analysis:</b> Python, Excel, Power BI, SQL</div>
-<div class="cert"><b>Business Analysis:</b> Miro, Confluence, Requirement Gathering</div>
-<div class="cert"><b>Project Management:</b> Jira, Ms Project, Primavera, PRINCE2</div>
-<div class="cert"><b>Other Tools:</b> Git, GitHub, VS Code</div>
+<div class="cert"><b>Business Analysis:</b> Miro, Confluence, Requirement Gathering, Process Mapping, Stakeholder Analysis</div> 
+<div class="cert"><b>Project Management:</b> Jira, Ms Project, Primavera, PRINCE2, Agile</div> 
+<div class="cert"><b>Other Tools:</b> Git, GitHub, VS Code, Web Scraping (BeautifulSoup, Selenium)</div>
 
 </div>
 
@@ -228,32 +235,87 @@ Data Analyst with strong experience in analytics, reporting, and workflow improv
 </div>
 </div>
 
-<!-- PROJECTS -->
+<!-- EXCEL PROJECTS -->
 <div class="section">
-<h2>Projects</h2>
-
+<h2>Data Analysis with Excel</h2>
 <div class="grid">
 
 <div class="card excel">
 <img src="images/schedule_tracker.png">
 <div class="card-content">
 <h3>Schedule Tracker</h3>
-<a href="#">View Project</a>
+<p>Dynamic shift scheduling tool ensuring balanced work distribution and automatic calendar updates.</p>
+<a href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/schedule_tracker">View Project</a>
 </div>
 </div>
 
 <div class="card excel">
 <img src="images/presidential_election_2023.png">
 <div class="card-content">
-<h3>Election Analysis</h3>
+<h3>2023 Nigerian Election Analysis</h3>
+<p>Analysis of election results to identify party strongholds and strategic improvement areas.</p>
+<a href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/nigerian_2023_election">View Project</a>
+</div>
+</div>
+
+<div class="card excel">
+<img src="images/adidas.png">
+<div class="card-content">
+<h3>Adidas Sales Analysis</h3>
+<p>Sales dashboard showing regional performance and revenue trends.</p>
+<a href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/adidas">View Project</a>
+</div>
+</div>
+
+<div class="card excel">
+<img src="images/bank_churn.png">
+<div class="card-content">
+<h3>Bank Churn Analysis</h3>
+<p>Customer churn insights using Excel dashboards and pivot tables.</p>
+<a href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/bank_churn">View Project</a>
+</div>
+</div>
+
+<div class="card excel">
+<img src="images/fingerprint_data.png">
+<div class="card-content">
+<h3>Fingerprint Attendance Data</h3>
+<p>Biometric attendance system converting logs into structured presence data.</p>
+<a href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/fingerprint_data">View Project</a>
+</div>
+</div>
+
+<div class="card excel">
+<img src="images/navigation_bar.png">
+<div class="card-content">
+<h3>Navigation Bar System</h3>
+<p>Custom Excel navigation system for improved workbook usability.</p>
+<a href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/navigation_bar">View Project</a>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- PYTHON PROJECTS -->
+<div class="section">
+<h2>Data Analysis with Python</h2>
+<div class="grid">
+
+<div class="card python">
+<img src="images/car_sales_analysis.png">
+<div class="card-content">
+<h3>Car Sales Price Analysis</h3>
+<p>Exploratory data analysis to uncover pricing patterns and insights.</p>
 <a href="#">View Project</a>
 </div>
 </div>
 
 <div class="card python">
-<img src="images/car_sales_analysis.png">
+<img src="images/data_cleaning_eda.png">
 <div class="card-content">
-<h3>Car Sales Analysis</h3>
+<h3>Data Cleaning & EDA</h3>
+<p>Data cleaning and transformation using Pandas and NumPy.</p>
 <a href="#">View Project</a>
 </div>
 </div>
@@ -270,17 +332,71 @@ Data Analyst with strong experience in analytics, reporting, and workflow improv
 
 <!-- EXPERIENCE -->
 <div class="section" id="experience">
-<h2>Experience</h2>
-<div class="timeline">Data Analyst - PM4Success</div>
+<h2>Professional Experience</h2>
+
+<div class="timeline">
+<h3>Associate Data Analyst | PM4Success International</h3>
+<p>● Analyzed Rivers State Local Government historical election data using SQL and Excel to 
+identify voting patterns, party strongholds, and weak zones.</p>
+<p>● Developed KPI-based reports that enabled party leaders to clearly understand 
+high-performance wards vs underperforming areas, supporting targeted campaign 
+strategies.</p>
+<p>● Cleaned and validated multi-source datasets to improve reporting accuracy and decision 
+reliability.</p>
+<p>● Prepared periodic analytical summaries and visual reports for non-technical 
+stakeholders.</p>
+</div>
+
+<div class="timeline">
+<h3>Associate Project Manager | PM4Success International</h3>
+<p>● Supported planning, coordination, and execution of data-driven and reporting-focused 
+projects across multiple stakeholders.</p> 
+<p>● Applied PRINCE2® methodology to manage timelines, risks, documentation, and 
+deliverables.</p>
+<p>● Tracked project KPIs, milestones, and progress using Excel-based reports and 
+structured status updates.</p>
+<p>● Coordinated communication between analysts, operations teams, and management to 
+ensure alignment with project objectives.</p>
+<p>● Integrated analytical insights into project reports to support evidence-based 
+decision-making.</p>
+</div>
+
+<div class="timeline">
+<h3>Operations Data Analyst/ Field Engineer | NOVA Track Ltd</h3>
+<p>● Analyzed GPS tracking system data to identify lapse intervals, signal delays, and 
+reporting inconsistencies, improving system reliability.</p>
+<p>● Created operational reports that highlighted performance gaps in GPS reporting time, 
+supporting faster troubleshooting and service optimization.</p>
+<p>● Ensured data accuracy across tracking logs, installation records, and operational 
+datasets.</p>
+</div>
+
+<div class="timeline">
+<h3>Software Developer Intern | DevAmplify Hub</h3>
+<p>● Worked on SaaS platform using AngularJS and PHP.</p> 
+</div>
+
 </div>
 
 <!-- CERTIFICATIONS -->
 <div class="section" id="certifications">
 <h2>Certifications</h2>
-<div class="cert">PRINCE2</div>
 
-<h3>Other Certifications</h3>
-<div class="cert">NEBOSH IGC</div>
+<div class="cert">PRINCE2® Foundation</div>
+<div class="cert">Google Data Analytics</div>
+<div class="cert">IBM Data Analytics</div>
+<div class="cert">Meta Data Analyst</div>
+<div class="cert">Microsoft Business Analyst</div>
+<div class="cert">Google Project Management</div>
+<div class="cert">Google Cybersecurity</div>
+<div class="cert">ALX AI Starter Kit</div>
+
+<h3>Other Certifications (Safety)</h3>
+
+<div class="cert">NEBOSH IGC (International General Certificate)</div>
+<div class="cert">General Health, Safety & Environment certificate</div>
+<div class="cert">First Aid, CPR & AED at work certificate</div>
+
 </div>
 
 <!-- CONTACT -->
@@ -306,7 +422,6 @@ Data Analyst with strong experience in analytics, reporting, and workflow improv
 </div>
 
 <!-- SCRIPTS -->
-
 <script>
 /* ACTIVE NAV */
 const sections = document.querySelectorAll("div.section[id]");
