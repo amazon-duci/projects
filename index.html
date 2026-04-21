@@ -110,7 +110,7 @@ body {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  display: none; /* show once you add a real image */
+  display: block;
 }
 
 .profile-pic-icon {
@@ -808,15 +808,8 @@ body {
 
     <!-- Profile Picture -->
     <div class="profile-pic-wrap">
-      <div class="profile-pic" title="my photo">
-          <img src="images/linkedin_DP.jpeg" alt="Innocent Udeh">
-        <!-- <div class="profile-pic-icon">
-          <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="28" cy="22" r="11" stroke="#8ba3b8" stroke-width="2"/>
-            <path d="M8 48c0-11 9-18 20-18s20 7 20 18" stroke="#8ba3b8" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </div> -->
-        <!-- <div class="profile-pic-label">Add Photo</div> -->
+      <div class="profile-pic">
+        <img src="images/linkedin_DP.jpeg" alt="Innocent Udeh">
       </div>
     </div>
 
@@ -935,130 +928,131 @@ body {
     <div class="filter-bar">
       <button class="filter-btn active" onclick="filterProjects('all', this)">All Projects</button>
       <button class="filter-btn" onclick="filterProjects('excel', this)">Excel</button>
+      <button class="filter-btn" onclick="filterProjects('powerbi', this)">Power BI</button>
       <button class="filter-btn" onclick="filterProjects('python', this)">Python</button>
     </div>
 
     <div class="projects-grid">
 
-      <!-- EXCEL PROJECTS -->
+      <!-- ── EXCEL PROJECTS ── -->
       <div class="project-card excel">
-        <div class="img-placeholder">
-          <svg width="80" height="60" viewBox="0 0 80 60" fill="none"><rect x="10" y="30" width="10" height="30" fill="#c9a84c"/><rect x="25" y="20" width="10" height="40" fill="#c9a84c"/><rect x="40" y="10" width="10" height="50" fill="#c9a84c"/><rect x="55" y="25" width="10" height="35" fill="#c9a84c"/></svg>
-          <span>Schedule Tracker</span>
-        </div>
+        <img src="images/schedule_tracker.png" alt="Schedule Tracker" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="img-placeholder" style="display:none"><span>Schedule Tracker</span></div>
         <div class="card-body">
           <div class="card-tag">Excel</div>
           <h3>Schedule Tracker</h3>
           <p>Dynamic shift scheduling tool ensuring balanced work distribution and automatic calendar updates.</p>
-          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/schedule_tracker" target="_blank">
-            View Project →
-          </a>
+          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/schedule_tracker" target="_blank">View Project →</a>
         </div>
       </div>
 
       <div class="project-card excel">
-        <div class="img-placeholder">
-          <svg width="80" height="60" viewBox="0 0 80 60" fill="none"><polyline points="5,55 20,35 35,40 50,20 65,28 75,10" stroke="#c9a84c" stroke-width="2" fill="none"/><circle cx="20" cy="35" r="3" fill="#c9a84c"/><circle cx="35" cy="40" r="3" fill="#c9a84c"/><circle cx="50" cy="20" r="3" fill="#c9a84c"/><circle cx="65" cy="28" r="3" fill="#c9a84c"/></svg>
-          <span>2023 Election Analysis</span>
-        </div>
+        <img src="images/presidential_election_2023.png" alt="2023 Nigerian Election Analysis" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="img-placeholder" style="display:none"><span>2023 Election Analysis</span></div>
         <div class="card-body">
           <div class="card-tag">Excel</div>
           <h3>2023 Nigerian Election Analysis</h3>
           <p>Analysis of election results to identify party strongholds and strategic improvement areas.</p>
-          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/nigerian_2023_election" target="_blank">
-            View Project →
-          </a>
+          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/nigerian_2023_election" target="_blank">View Project →</a>
         </div>
       </div>
 
       <div class="project-card excel">
-        <div class="img-placeholder">
-          <svg width="80" height="60" viewBox="0 0 80 60" fill="none"><rect x="5" y="5" width="70" height="50" rx="4" stroke="#c9a84c" stroke-width="1.2" fill="none"/><line x1="5" y1="20" x2="75" y2="20" stroke="#c9a84c" stroke-width="0.8"/><line x1="30" y1="5" x2="30" y2="55" stroke="#c9a84c" stroke-width="0.8"/><rect x="10" y="28" width="15" height="20" fill="#c9a84c" opacity="0.5" rx="2"/><rect x="35" y="22" width="15" height="26" fill="#c9a84c" opacity="0.7" rx="2"/><rect x="55" y="32" width="15" height="16" fill="#c9a84c" opacity="0.4" rx="2"/></svg>
-          <span>Adidas Sales Analysis</span>
-        </div>
+        <img src="images/adidas.png" alt="Adidas Sales Analysis" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="img-placeholder" style="display:none"><span>Adidas Sales Analysis</span></div>
         <div class="card-body">
           <div class="card-tag">Excel</div>
           <h3>Adidas Sales Analysis</h3>
           <p>Sales dashboard showing regional performance and revenue trends across product lines.</p>
-          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/adidas" target="_blank">
-            View Project →
-          </a>
+          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/adidas" target="_blank">View Project →</a>
         </div>
       </div>
 
       <div class="project-card excel">
-        <div class="img-placeholder">
-          <svg width="80" height="60" viewBox="0 0 80 60" fill="none"><circle cx="40" cy="30" r="22" stroke="#c9a84c" stroke-width="1.2" fill="none"/><path d="M 40 30 L 40 8 A 22 22 0 0 1 62 30 Z" fill="#c9a84c" opacity="0.5"/><path d="M 40 30 L 62 30 A 22 22 0 0 1 22 46 Z" fill="#c9a84c" opacity="0.3"/></svg>
-          <span>Bank Churn Analysis</span>
-        </div>
+        <img src="images/bank_churn.png" alt="Bank Churn Analysis" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="img-placeholder" style="display:none"><span>Bank Churn Analysis</span></div>
         <div class="card-body">
           <div class="card-tag">Excel</div>
           <h3>Bank Churn Analysis</h3>
           <p>Customer churn insights using Excel dashboards and pivot tables to identify at-risk segments.</p>
-          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/bank_churn" target="_blank">
-            View Project →
-          </a>
+          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/bank_churn" target="_blank">View Project →</a>
         </div>
       </div>
 
       <div class="project-card excel">
-        <div class="img-placeholder">
-          <svg width="80" height="60" viewBox="0 0 80 60" fill="none"><rect x="15" y="5" width="50" height="50" rx="4" stroke="#c9a84c" stroke-width="1.2" fill="none"/><line x1="15" y1="18" x2="65" y2="18" stroke="#c9a84c" stroke-width="0.7" opacity="0.5"/><line x1="15" y1="31" x2="65" y2="31" stroke="#c9a84c" stroke-width="0.7" opacity="0.5"/><line x1="15" y1="44" x2="65" y2="44" stroke="#c9a84c" stroke-width="0.7" opacity="0.5"/><rect x="20" y="22" width="8" height="8" rx="4" fill="#c9a84c" opacity="0.8"/><rect x="20" y="35" width="8" height="8" rx="4" fill="#c9a84c" opacity="0.6"/><rect x="20" y="9" width="8" height="8" rx="4" fill="#c9a84c" opacity="0.4"/></svg>
-          <span>Fingerprint Attendance</span>
-        </div>
+        <img src="images/fingerprint_data.png" alt="Fingerprint Attendance Data" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="img-placeholder" style="display:none"><span>Fingerprint Attendance</span></div>
         <div class="card-body">
           <div class="card-tag">Excel</div>
           <h3>Fingerprint Attendance Data</h3>
           <p>Biometric attendance system converting raw logs into structured, reportable presence data.</p>
-          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/fingerprint_data" target="_blank">
-            View Project →
-          </a>
+          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/fingerprint_data" target="_blank">View Project →</a>
         </div>
       </div>
 
       <div class="project-card excel">
-        <div class="img-placeholder">
-          <svg width="80" height="60" viewBox="0 0 80 60" fill="none"><rect x="5" y="5" width="70" height="50" rx="4" stroke="#c9a84c" stroke-width="1.2" fill="none"/><rect x="5" y="5" width="70" height="14" rx="4" fill="#c9a84c" opacity="0.3"/><line x1="5" y1="27" x2="75" y2="27" stroke="#c9a84c" stroke-width="0.7" opacity="0.4"/><line x1="5" y1="40" x2="75" y2="40" stroke="#c9a84c" stroke-width="0.7" opacity="0.4"/></svg>
-          <span>Navigation Bar System</span>
-        </div>
+        <img src="images/navigation_bar.png" alt="Navigation Bar System" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="img-placeholder" style="display:none"><span>Navigation Bar System</span></div>
         <div class="card-body">
           <div class="card-tag">Excel</div>
           <h3>Navigation Bar System</h3>
           <p>Custom Excel navigation system for improved multi-sheet workbook usability and UX.</p>
-          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/navigation_bar" target="_blank">
-            View Project →
-          </a>
+          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/Ms-Excel/navigation_bar" target="_blank">View Project →</a>
         </div>
       </div>
 
-      <!-- PYTHON PROJECTS -->
-      <div class="project-card python">
-        <div class="img-placeholder">
-          <svg width="80" height="60" viewBox="0 0 80 60" fill="none"><polyline points="5,50 15,30 25,38 35,15 45,22 55,8 65,18 75,5" stroke="#c9a84c" stroke-width="2" fill="none"/><polygon points="5,50 15,30 25,38 35,15 45,22 55,8 65,18 75,5 75,60 5,60" fill="#c9a84c" opacity="0.15"/></svg>
-          <span>Car Sales Price Analysis</span>
+      <!-- ── POWER BI PROJECTS ──
+           Instructions: Save your screenshot to images/ folder, then update src="" and href="" below.
+           Duplicate this block to add more Power BI projects. -->
+      <div class="project-card powerbi">
+        <img src="images/business_analysis_dash.png" alt="Power BI Project 1" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="img-placeholder" style="display:flex">
+          <svg width="80" height="60" viewBox="0 0 80 60" fill="none"><rect x="5" y="35" width="12" height="20" fill="#c9a84c" opacity="0.5" rx="2"/><rect x="22" y="22" width="12" height="33" fill="#c9a84c" opacity="0.65" rx="2"/><rect x="39" y="10" width="12" height="45" fill="#c9a84c" opacity="0.8" rx="2"/><rect x="56" y="18" width="12" height="37" fill="#c9a84c" opacity="0.6" rx="2"/><line x1="5" y1="8" x2="75" y2="8" stroke="#c9a84c" stroke-width="0.7" opacity="0.4" stroke-dasharray="3 2"/></svg>
+          <span>Business Analysis Dashboard</span>
         </div>
+        <div class="card-body">
+          <div class="card-tag" style="color:#f2c94c;">Power BI</div>
+          <h3>Business Analysis Dashboard</h3>
+          <p>An interactive Power BI dashboard to analyze revenue, customer contribution,
+              regional performance, and sales trends, providing insights for better business decisions.</p>
+          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/PowerBI/Business_analysis_dash" target="_blank">View Project →</a>
+        </div>
+      </div>
+
+      <!-- <div class="project-card powerbi">
+        <img src="images/powerbi_project2.png" alt="Power BI Project 2" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="img-placeholder" style="display:flex">
+          <svg width="80" height="60" viewBox="0 0 80 60" fill="none"><circle cx="40" cy="30" r="22" stroke="#c9a84c" stroke-width="1.2" fill="none"/><path d="M 40 30 L 40 8 A 22 22 0 0 1 58 44 Z" fill="#c9a84c" opacity="0.6"/><path d="M 40 30 L 58 44 A 22 22 0 0 1 18 40 Z" fill="#c9a84c" opacity="0.35"/><path d="M 40 30 L 18 40 A 22 22 0 0 1 40 8 Z" fill="#c9a84c" opacity="0.2"/></svg>
+          <span>Add Screenshot</span>
+        </div>
+        <div class="card-body">
+          <div class="card-tag" style="color:#f2c94c;">Power BI</div>
+          <h3>Power BI Project 2</h3>
+          <p>Add your project description here. Describe the dashboard, data source, and key insights delivered.</p>
+          <a class="card-link" href="#" target="_blank">View Project →</a>
+        </div>
+      </div> -->
+
+      <!-- ── PYTHON PROJECTS ── -->
+      <div class="project-card python">
+        <img src="images/car_sales_analysis.png" alt="Car Sales Price Analysis" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="img-placeholder" style="display:none"><span>Car Sales Price Analysis</span></div>
         <div class="card-body">
           <div class="card-tag">Python</div>
           <h3>Car Sales Price Analysis</h3>
           <p>Exploratory data analysis to uncover pricing patterns, market trends, and predictive insights.</p>
-          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/python_analysis/car_sales" target="_blank">
-            View Project →
-          </a>
+          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/python_analysis/car_sales" target="_blank">View Project →</a>
         </div>
       </div>
 
       <div class="project-card python">
-        <div class="img-placeholder">
-          <svg width="80" height="60" viewBox="0 0 80 60" fill="none"><rect x="5" y="10" width="70" height="8" rx="2" fill="#c9a84c" opacity="0.3"/><rect x="5" y="23" width="55" height="8" rx="2" fill="#c9a84c" opacity="0.5"/><rect x="5" y="36" width="65" height="8" rx="2" fill="#c9a84c" opacity="0.35"/><rect x="5" y="49" width="45" height="8" rx="2" fill="#c9a84c" opacity="0.6"/></svg>
-          <span>Data Cleaning & EDA</span>
-        </div>
+        <img src="images/data_cleaning_eda.png" alt="Data Cleaning & EDA" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="img-placeholder" style="display:none"><span>Data Cleaning & EDA</span></div>
         <div class="card-body">
           <div class="card-tag">Python</div>
           <h3>Data Cleaning &amp; EDA</h3>
           <p>Comprehensive data cleaning and transformation pipelines using Pandas and NumPy.</p>
-          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/python_analysis/bank_churn" target="_blank">
-            View Project →
-          </a>
+          <a class="card-link" href="https://github.com/amazon-duci/projects/tree/main/python_analysis/bank_churn" target="_blank">View Project →</a>
         </div>
       </div>
 
