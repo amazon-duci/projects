@@ -1,4 +1,4 @@
-# 📊 Data Analytics Projects
+# 📊 Data/ Business Analysis Projects
 
 Welcome — this repository holds my personal **Data Analytics** projects, organized into three main folders:
 
